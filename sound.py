@@ -1,4 +1,4 @@
-import discord, json, locale
+import discord, locale
 from discord.ext import commands
 from asyncio import *
 from datetime import datetime, timedelta
@@ -7,8 +7,8 @@ locale.setlocale(locale.LC_ALL, 'ru_RU.utf8')
 Play=True
 vc=None
 id_t=0
-Traks=["тест","Royalty"]
-covers=["Kiss_of_death","Katyusha","Suzume"]
+Traks=["тест","Royalty","Прощание"]
+covers=["Kiss_of_death","Katyusha","Suzume","Hope_Is_the_Thing_with_Feathers","Idol","Starfall","While_Night","Wildfire"]
 gsounds=["Earth","La_vaguelette","Main_Theme","Take_the_Journey","Rogue_Main_Theme"]
 ssounds=["Main_Title","Janissary_Song_1","Janissary_Song_2","Deepest_Love"]
 path=player()
