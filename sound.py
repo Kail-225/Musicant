@@ -7,10 +7,10 @@ locale.setlocale(locale.LC_ALL, 'ru_RU.utf8')
 Play=True
 vc=None
 id_t=0
-Traks=["Royalty2","Прощание2","Faster_n_harder2"]
-covers=["Kiss_of_death2","Katyusha2","Suzume2","Hope_Is_the_Thing_with_Feathers2","Idol2","Starfall2","White_Night2","Wildfire2"]
-gsounds=["Earth2","La_vaguelette2","Honor_for_all2","Take_the_Journey2","Rogue_Main_Theme2"]
-ssounds=["Main_Title2","Janissary_Song_12","Janissary_Song_22","Deepest_Love2"]
+Traks=["Royalty","Прощание","Faster_n_harder","Rave","Dare"]
+covers=["Kiss_of_death","Katyusha","Suzume","Hope_Is_the_Thing_with_Feathers","Idol","Starfall","White_Night","Wildfire"]
+gsounds=["Earth","La_vaguelette","Honor_for_all","Take_the_Journey","Rogue_Main_Theme"]
+ssounds=["Main_Title","Janissary_Song_1","Janissary_Song_2","Deepest_Love"]
 path=player()
 async def sound(a,bot):
     global Play, id_t
@@ -158,7 +158,7 @@ def setup(bot):
                         source=f"{tpath}{all[id_t]}.mp3",
                         options="-vn"
                         )
-                    await bot.change_presence(status="Запущен тестовый режим")
+                    await bot.change_presence(activity=discord.CustomActivity(name="Запущен тестовый режим"))
                     vc.play(audio_source)
                     while vc.is_playing() or vc.is_paused():
                         await sleep(1)
