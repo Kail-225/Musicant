@@ -1,6 +1,5 @@
-import discord, json, locale
+import discord
 from discord.ext import commands
-from datetime import datetime, timedelta
 from asyncio import *
 from sound import setup
 from boot import access
@@ -13,6 +12,7 @@ t=access()["bro"]
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user.name}")
+    await bot.change_presence(activity=discord.CustomActivity(name="Готов играть музыку"))
     return
     print("Started without errors!")
 setup(bot)
