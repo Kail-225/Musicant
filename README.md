@@ -10,14 +10,14 @@
 ```Shinunoga_E-wa - Fujii_Kaze```<br>
 ```Kiss_of_death - Sati Akura```<br>
 ```Katyusha - Sati Akura```<br>
-```Suzume - Sati Akura```<br>
+```Suzume(кавер на русском)- Sati Akura```<br>
 ```Hope_Is_the_Thing_with_Feathers - Sati Akura```<br>
-```Idol1 - Sati Akura```<br>
+```Idol- Sati Akura```<br>
 ```Starfall - Sati Akura```<br>
 ```White_Night - Sati Akura```<br>
 ```Wildfire - Sati Akura```<br>
-```Shinunoga_E-wa - Sati Akura```<br>
-```La_vaguelette - Sati Akura```<br>
+```Shinunoga_E-wa(кавер на русском)- Sati Akura```<br>
+```La_vaguelette(кавер на английском) - Sati Akura```<br>
 ```Earth - Jesper Kyd```<br>
 ```La_vaguelette - Ccilia Cara feat Genshin Impact```<br>
 ```Honor_for_all - Jon Licht и Daniel Licht```<br>
