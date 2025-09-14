@@ -6,12 +6,13 @@ from boot import *
 locale.setlocale(locale.LC_ALL, 'ru_RU.utf8')
 Play=True
 vc=None
+qfa=0
 id_t=0
-Traks=["Royalty","Прощание","Faster_n_harder","Rave","Dare","Children_of_the_sky"]
-jsounds=["Suzume","Shinunoga_E-wa"]
-covers=["Kiss_of_death","Katyusha","Suzume","Hope_Is_the_Thing_with_Feathers","Idol","Starfall","White_Night","Wildfire","Shinunoga_E-wa","La_vaguelette"]
-gsounds=["Earth","La_vaguelette","Honor_for_all","Take_the_Journey","Rogue_Main_Theme"]
-ssounds=["Main_Title","Janissary_Song_1","Janissary_Song_2","Deepest_Love"]
+Traks=["Royalty1","Прощание1","Faster_n_harder1","Rave1","Dare1","Children_of_the_sky1","Fairytale","Cantala","Starly","Pharsyde"]
+jsounds=["Suzume2","Shinunoga_E-wa2","Kiss_of_death"]
+covers=["Kiss_of_death1","Katyusha1","Suzume1","Hope_Is_the_Thing_with_Feathers1","Idol1","Starfall1","White_Night1","Wildfire1","Shinunoga_E-wa1","La_vaguelette1"]
+gsounds=["Earth1","La_vaguelette2","Honor_for_all1","Take_the_Journey1","Rogue_Main_Theme1","MoeChakkaFire"]
+ssounds=["Main_Title1","Janissary_Song_11","Janissary_Song_21","Deepest_Love1"]
 path=player()
 async def sound(a,bot):
     global Play, id_t
@@ -19,7 +20,7 @@ async def sound(a,bot):
     id=id_t
     if Play==True:
         if c_time.strftime('%A').capitalize()=="Понедельник":
-            if id==len(gsounds):
+            if id==len(jsounds):
                 id_t,id=0,0
                 audio_source = discord.FFmpegPCMAudio(
                     executable=path,

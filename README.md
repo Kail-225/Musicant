@@ -1,8 +1,6 @@
-Данный бот создан в качестве радио с песнями. Громкость увы у каждого из них сильно разнится(учитывая, что есть фонк это неудивительно) + я настраивал под свои уши, которые сидят не на 100% громкости.<br>
-**Поэтому если сидите на 100% громкости, то ставьте громкость бота на ```60%```**<br>
-А если на 45%, то можете оставить ```100%```<br>
+Данный бот создан в качестве дискорд-радио с песнями. Увы, он настроен под определённый конфиг. Поэтому скачивайте и меняйте сами<br>
 **```Список загруженных треков(формат: название - автор):```**<br>
-```Royalty - EgzodMaestro и ChivesNeoni Instrumental version```<br>
+```Royalty(Instrumental version) - EgzodMaestro и ChivesNeoni```<br>
 ```Прощание - Три дня дождя```<br>
 ```Faster_n_harder - 6arelyhuman```<br>
 ```Rave - Dxrk```<br>
@@ -28,5 +26,11 @@
 ```Main_Title - Ramin Djawadi (хороший сериал. Жаль запороли конец. Созвать знамёна!)```<br>
 ```Janissary_Song_1 - Soner Akaln```<br>
 ```Janissary_Song_2 - Soner Akaln```<br>
-```Deepest_Love - Aytekin Ata-Ak```
+```Deepest_Love - Aytekin Ata-Ak```<br>
+```Pharsyde(feat. Joe Fox) - A$AP Rocky, Joe Fox```<br>
+```starly(Slowed) - LONOWN, riserayss```<br>
+```KISS OF DEATH（Produced by HYDE) - Mika Nakashima```<br>
+```Fairytale - Александр Рыбак```<br>
+```MoeChakkaFire - Ellen Joe (CV:Shion Wakayama)```<br>
+```CANTA LA - KVRXD, WEXWHVT```<br>
 **Если увидите ошибки или найдёте дополнения, то буду рад увидеть обновления**
